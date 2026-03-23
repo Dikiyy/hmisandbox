@@ -1463,4 +1463,8 @@
       </list>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
 </project>
