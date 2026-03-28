@@ -1,5 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
+    // kotlin.android enables the Kotlin compiler for Android source sets.
+    // Required for KSP / Hilt to process @HiltAndroidApp, @HiltViewModel etc.
+    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     // Hilt plugin generates component/module binding code at compile time (like Spring's @ComponentScan)
     alias(libs.plugins.hilt)
